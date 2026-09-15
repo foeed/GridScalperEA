@@ -33,11 +33,11 @@ DAX AI Agent Grid Scalper is an Expert Advisor (EA) for MetaTrader 5 written in 
 
 ## Documentation Pages
 
-- [GitHub Repository](https://github.com/foeed/dax-ai-agent-grid-scalper): Full source code, issues, releases
-- [Quick Start Guide](https://github.com/foeed/dax-ai-agent-grid-scalper/blob/main/QUICKSTART.md): 5-minute standalone setup
-- [FastAPI Backend Docs](https://github.com/foeed/dax-ai-agent-grid-scalper/blob/main/README_FastAPI.md): Backend architecture and API reference
-- [Changelog](https://github.com/foeed/dax-ai-agent-grid-scalper/blob/main/CHANGELOG.md): Release history
-- [Contributing Guide](https://github.com/foeed/dax-ai-agent-grid-scalper/blob/main/CONTRIBUTING.md): How to contribute
+- [GitHub Repository](https://github.com/foeed/GridScalperEA): Full source code, issues, releases
+- [Quick Start Guide](https://github.com/foeed/GridScalperEA/blob/main/QUICKSTART.md): 5-minute standalone setup
+- [FastAPI Backend Docs](https://github.com/foeed/GridScalperEA/blob/main/README_FastAPI.md): Backend architecture and API reference
+- [Changelog](https://github.com/foeed/GridScalperEA/blob/main/CHANGELOG.md): Release history
+- [Contributing Guide](https://github.com/foeed/GridScalperEA/blob/main/CONTRIBUTING.md): How to contribute
 
 ## Technology Stack
 

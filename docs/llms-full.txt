@@ -218,7 +218,7 @@ London 07:00-16:00 (good), New York 12:00-21:00 (good), London/NY Overlap 12:00-
 # PART 6: PROJECT STRUCTURE
 
 ```
-dax-ai-agent-grid-scalper/
+GridScalperEA/
 ├── DeepSeekNewsGridScalper_V2.mq5   # Main standalone EA (800+ lines)
 ├── Include/
 │   ├── DeepSeekAI.mqh               # AI integration module
@@ -274,10 +274,10 @@ Standalone: EA calls DeepSeek/NewsAPI directly from MT5 — simplest setup. Fast
 
 # PART 8: LINKS & CITATION
 
-- Repository: https://github.com/foeed/dax-ai-agent-grid-scalper
-- Landing page: https://foeed.github.io/dax-ai-agent-grid-scalper/
-- Releases: https://github.com/foeed/dax-ai-agent-grid-scalper/releases/tag/v2.0.0
-- Issues: https://github.com/foeed/dax-ai-agent-grid-scalper/issues
+- Repository: https://github.com/foeed/GridScalperEA
+- Landing page: https://foeed.github.io/GridScalperEA/
+- Releases: https://github.com/foeed/GridScalperEA/releases/tag/v2.0.0
+- Issues: https://github.com/foeed/GridScalperEA/issues
 - License: MIT
 - Version: 2.0.0 (August 2026)
 

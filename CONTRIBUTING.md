@@ -18,7 +18,7 @@ Please read our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing. We
 
 ### Reporting Bugs
 
-1. Check [existing issues](https://github.com/foeed/dax-ai-agent-grid-scalper/issues) to avoid duplicates
+1. Check [existing issues](https://github.com/foeed/GridScalperEA/issues) to avoid duplicates
 2. Open a new issue using the **Bug Report** template
 3. Include: MT5 version, Python version, OS, steps to reproduce, logs
 
@@ -49,8 +49,8 @@ Please read our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing. We
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/dax-ai-agent-grid-scalper.git
-cd dax-ai-agent-grid-scalper/Backend
+git clone https://github.com/YOUR_USERNAME/GridScalperEA.git
+cd GridScalperEA/Backend
 
 # Create virtual environment
 python -m venv .venv
@@ -121,4 +121,4 @@ python -m uvicorn app.main:app --reload
 
 ## Questions?
 
-Open an issue with the `question` label or start a [Discussion](https://github.com/foeed/dax-ai-agent-grid-scalper/discussions).
+Open an issue with the `question` label or start a [Discussion](https://github.com/foeed/GridScalperEA/discussions).

@@ -36,4 +36,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Simple risk controls
 - Standard trailing stops
 
-[2.0.0]: https://github.com/foeed/dax-ai-agent-grid-scalper/releases/tag/v2.0.0
+[2.0.0]: https://github.com/foeed/GridScalperEA/releases/tag/v2.0.0

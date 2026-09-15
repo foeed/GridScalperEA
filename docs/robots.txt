@@ -1,5 +1,5 @@
 # robots.txt - DAX AI Agent Grid Scalper
-# https://foeed.github.io/dax-ai-agent-grid-scalper/
+# https://foeed.github.io/GridScalperEA/
 
 User-agent: *
 Allow: /
@@ -43,4 +43,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://foeed.github.io/dax-ai-agent-grid-scalper/sitemap.xml
+Sitemap: https://foeed.github.io/GridScalperEA/sitemap.xml

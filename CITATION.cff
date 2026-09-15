@@ -7,8 +7,8 @@ type: software
 authors:
   - name: foeed
     website: 'https://github.com/foeed'
-repository-code: 'https://github.com/foeed/dax-ai-agent-grid-scalper'
-url: 'https://foeed.github.io/dax-ai-agent-grid-scalper/'
+repository-code: 'https://github.com/foeed/GridScalperEA'
+url: 'https://foeed.github.io/GridScalperEA/'
 abstract: >-
   AI-powered MetaTrader 5 Expert Advisor combining breakout grid trading
   with DeepSeek LLM market analysis, real-time NewsAPI news sentiment

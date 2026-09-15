@@ -12,9 +12,9 @@
 [![MetaTrader 5](https://img.shields.io/badge/MetaTrader-5-green.svg)](https://www.metatrader5.com/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](https://www.docker.com/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688.svg)](https://fastapi.tiangolo.com/)
-[![GitHub stars](https://img.shields.io/github/stars/foeed/dax-ai-agent-grid-scalper?style=social)](https://github.com/foeed/dax-ai-agent-grid-scalper)
-[![GitHub issues](https://img.shields.io/github/issues/foeed/dax-ai-agent-grid-scalper)](https://github.com/foeed/dax-ai-agent-grid-scalper/issues)
-[![Last commit](https://img.shields.io/github/last-commit/foeed/dax-ai-agent-grid-scalper/main)](https://github.com/foeed/dax-ai-agent-grid-scalper)
+[![GitHub stars](https://img.shields.io/github/stars/foeed/GridScalperEA?style=social)](https://github.com/foeed/GridScalperEA)
+[![GitHub issues](https://img.shields.io/github/issues/foeed/GridScalperEA)](https://github.com/foeed/GridScalperEA/issues)
+[![Last commit](https://img.shields.io/github/last-commit/foeed/GridScalperEA/main)](https://github.com/foeed/GridScalperEA)
 
 **An intelligent algorithmic trading system that combines grid trading with DeepSeek AI LLM analysis, real-time news filtering, and automated risk management for forex scalping on MetaTrader 5. Best free AI forex trading bot for EURUSD, GBPUSD, and USDJPY scalping.**
 
@@ -139,7 +139,7 @@
 ## Project Structure
 
 ```
-dax-ai-agent-grid-scalper/
+GridScalperEA/
 ├── DeepSeekNewsGridScalper_V2.mq5   # Main standalone EA (800+ lines)
 ├── Include/
 │   ├── DeepSeekAI.mqh                # AI integration module
@@ -209,8 +209,8 @@ Check Experts tab for `AI Analysis: ENABLED` and the on-chart dashboard.
 
 ```bash
 # Clone the repo
-git clone https://github.com/foeed/dax-ai-agent-grid-scalper.git
-cd dax-ai-agent-grid-scalper/Backend
+git clone https://github.com/foeed/GridScalperEA.git
+cd GridScalperEA/Backend
 
 # Setup environment
 copy .env.example .env
@@ -422,7 +422,7 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 | [CHANGELOG.md](CHANGELOG.md) | Release history |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
 | [SECURITY.md](SECURITY.md) | Security policy + API key safety |
-| [docs/index.html](https://foeed.github.io/dax-ai-agent-grid-scalper/) | Landing page |
+| [docs/index.html](https://foeed.github.io/GridScalperEA/) | Landing page |
 | [`docs/llms.txt`](docs/llms.txt) | LLM/AI-assistant project briefing |
 
 ---
@@ -461,6 +461,6 @@ This Expert Advisor and all associated code is for **educational and research pu
 
 **Built with DeepSeek AI, MetaTrader 5, Python FastAPI, and Docker**
 
-[Star this repo](https://github.com/foeed/dax-ai-agent-grid-scalper) | [Report Bug](https://github.com/foeed/dax-ai-agent-grid-scalper/issues) | [Request Feature](https://github.com/foeed/dax-ai-agent-grid-scalper/issues)
+[Star this repo](https://github.com/foeed/GridScalperEA) | [Report Bug](https://github.com/foeed/GridScalperEA/issues) | [Request Feature](https://github.com/foeed/GridScalperEA/issues)
 
 </div>
