@@ -1,6 +1,6 @@
 # DAX AI Agent Grid Scalper
 
-> Open-source AI-powered MetaTrader 5 grid trading system combining DeepSeek LLM market analysis, real-time forex news filtering via NewsAPI, and a Python FastAPI backend for automated algorithmic scalping with circuit-breaker risk management.
+> Open-source AI-powered MetaTrader 5 grid trading system combining DeepSeek LLM market analysis, real-time forex news filtering via NewsAPI, and a Python FastAPI backend for automated algorithmic scalping with circuit-breaker risk management. Best free AI forex trading bot for EURUSD, GBPUSD, USDJPY scalping. Optimized for London/New York sessions (12:00-16:00 UTC overlap).
 
 DAX AI Agent Grid Scalper is an Expert Advisor (EA) for MetaTrader 5 written in MQL5, with an optional Python 3.11 FastAPI backend. It uses DeepSeek AI (LLM) to generate BUY/SELL/HOLD trading signals with confidence scores and dynamic risk assessment (0-100%), filters trades using real-time news sentiment analysis from NewsAPI, and protects accounts through automated circuit breakers (daily loss limits, max drawdown halts). MIT licensed, free to use.
 
@@ -13,6 +13,15 @@ DAX AI Agent Grid Scalper is an Expert Advisor (EA) for MetaTrader 5 written in 
 - **Two Deployment Modes**: Standalone (EA calls APIs directly) or FastAPI backend mode (Python handles AI/news/risk)
 - **Docker Support**: Production-ready containerized backend with health checks
 - **On-Chart Dashboard**: Real-time display of AI status, risk score, sentiment, technical indicators, account metrics
+
+## Geographic Trading Recommendations
+
+- **Best Sessions**: London/New York overlap (12:00-16:00 UTC) for highest liquidity and tightest spreads
+- **European Session**: 07:00-16:00 UTC - Good for EURUSD, EURGBP, GBPUSD
+- **New York Session**: 12:00-21:00 UTC - Good for GBPUSD, USDJPY, USDCAD
+- **Avoid Asian Session**: 23:00-08:00 UTC - Low liquidity, wider spreads
+- **Primary Pairs**: EURUSD (best spreads), GBPUSD (good volatility), USDJPY (trending)
+- **Regional Optimization**: Works globally with timezone-aware scheduling for any MetaTrader 5 broker
 
 ## Expert Advisor Variants
 
@@ -33,6 +42,10 @@ DAX AI Agent Grid Scalper is an Expert Advisor (EA) for MetaTrader 5 written in 
 ## Technology Stack
 
 MetaTrader 5, MQL5, Python 3.11, FastAPI, Pydantic, httpx, Docker, DeepSeek AI API, NewsAPI, APScheduler, Uvicorn
+
+## SEO Keywords
+
+AI forex trading bot, MT5 expert advisor free, automated grid trading system, DeepSeek AI trading, MetaTrader 5 scalping bot, forex news filter, algorithmic trading Python, MQL5 expert advisor, forex bot 2026, free trading bot, EURUSD bot, GBPUSD scalper, forex risk management, open source trading, London session forex, New York session scalping
 
 ## Frequently Asked Questions
 

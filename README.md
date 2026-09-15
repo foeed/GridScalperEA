@@ -1,8 +1,11 @@
+<!-- SEO Keywords: AI forex trading bot, MT5 expert advisor free, automated grid trading system, DeepSeek AI trading, MetaTrader 5 scalping bot, forex news filter, algorithmic trading Python, MQL5 expert advisor, forex bot 2026, free trading bot -->
+<!-- GEO Targeting: Global traders, London session forex, New York session scalping, EURUSD trading bot, GBPUSD scalping, UTC trading hours, forex bot for beginners -->
+<!-- Language: en-US -->
 <div align="center">
 
 # DAX AI Agent Grid Scalper
 
-### AI-Powered MetaTrader 5 Expert Advisor + Python FastAPI Backend
+### AI-Powered MetaTrader 5 Expert Advisor + Python FastAPI Automated Trading System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/downloads/)
@@ -13,7 +16,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/foeed/dax-ai-agent-grid-scalper)](https://github.com/foeed/dax-ai-agent-grid-scalper/issues)
 [![Last commit](https://img.shields.io/github/last-commit/foeed/dax-ai-agent-grid-scalper/main)](https://github.com/foeed/dax-ai-agent-grid-scalper)
 
-**An intelligent algorithmic trading system that combines grid trading with DeepSeek AI LLM analysis, real-time news filtering, and automated risk management for forex scalping on MetaTrader 5.**
+**An intelligent algorithmic trading system that combines grid trading with DeepSeek AI LLM analysis, real-time news filtering, and automated risk management for forex scalping on MetaTrader 5. Best free AI forex trading bot for EURUSD, GBPUSD, and USDJPY scalping.**
 
 [Quick Start](#quick-start) | [Architecture](#architecture) | [EA Variants](#ea-variants) | [Configuration](#configuration) | [Backtesting](#backtesting) | [FAQ](#faq) | [Contributing](#contributing)
 
@@ -30,6 +33,8 @@
 > **Cost**: Free software. NewsAPI free tier + ~$5 DeepSeek credits lasts months.
 > **Setup**: 5 minutes standalone (copy .mq5 → compile → enter API keys). Docker one-liner for the backend.
 > **Pairs**: EURUSD, GBPUSD, USDJPY (liquid majors). Best session: London/NY overlap 12:00–16:00 UTC.
+> **Regions**: Optimized for Europe (London) and Americas (New York) forex sessions. Works globally with timezone-aware scheduling.
+> **Languages**: English documentation. MQL5 code supports all MetaTrader 5 broker languages.
 
 ---
 
@@ -349,14 +354,39 @@ Research and optimization scripts live in [`tools/`](tools/) for running your ow
 | **Secondary** | EURGBP, AUDUSD, USDCAD |
 | **Avoid** | Exotics (USDTRY, USDZAR), minor pairs off-hours |
 
-### Best Sessions
+### Best Trading Sessions (by Region)
 
-| Session | Time (UTC) | Rating |
-|---------|-----------|--------|
-| London | 07:00-16:00 | Good |
-| New York | 12:00-21:00 | Good |
-| **Overlap** | **12:00-16:00** | **Best** |
-| Asian | 23:00-08:00 | Avoid |
+| Session | Time (UTC) | Local Time | Rating | Liquidity |
+|---------|-----------|------------|--------|-----------|
+| **London** | 07:00-16:00 | GMT/BST | Good | High |
+| **New York** | 12:00-21:00 | EST/EDT | Good | High |
+| **Overlap** | **12:00-16:00** | — | **Best** | **Highest** |
+| Tokyo | 23:00-08:00 | JST | Avoid | Low |
+| Sydney | 22:00-07:00 | AEST | Avoid | Low |
+
+---
+
+## Geographic Trading Recommendations
+
+### Regional Session Guide
+
+| Region | Timezone | Best Session (UTC) | Recommended Pairs | Strategy |
+|--------|----------|-------------------|-------------------|----------|
+| **Europe (London)** | GMT/BST | 07:00-16:00 | EURUSD, EURGBP, GBPUSD | Grid + News filter |
+| **Americas (New York)** | EST/EDT | 12:00-21:00 | GBPUSD, USDJPY, USDCAD | Trend + AI signals |
+| **Asia (Tokyo)** | JST | 23:00-08:00 | USDJPY, EURJPY | Conservative only |
+| **Global Overlap** | — | **12:00-16:00** | **All majors** | **Best scalping window** |
+
+### Currency Pair Recommendations by Region
+
+| Tier | Pairs | Spreads | Best For |
+|------|-------|---------|----------|
+| **Primary (Global)** | EURUSD, GBPUSD, USDJPY | Low | All sessions |
+| **European** | EURGBP, EURCHF, GBPCHF | Medium | London session |
+| **American** | USDJPY, USDCAD, USDCHF | Medium | New York session |
+| **Avoid** | Exotics (USDTRY, USDZAR) | High | Any session |
+
+> **Pro Tip**: The London/New York overlap (12:00-16:00 UTC) provides the highest liquidity and tightest spreads for AI-powered grid trading.
 
 ---
 
@@ -418,6 +448,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Disclaimer
 
 This Expert Advisor and all associated code is for **educational and research purposes only**. Trading foreign exchange on margin carries a high level of risk and may not be suitable for all investors. Past performance is not indicative of future results. Always trade responsibly and never risk money you cannot afford to lose. The authors are not responsible for any financial losses incurred from using this software.
+
+---
+
+## Tags
+
+`AI forex trading` `MT5 expert advisor` `automated grid trading` `DeepSeek AI` `MetaTrader 5 bot` `forex scalping` `algorithmic trading` `MQL5` `Python FastAPI` `forex news filter` `trading bot free` `EURUSD bot` `GBPUSD scalper` `forex risk management` `open source trading`
 
 ---
 
